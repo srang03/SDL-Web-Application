@@ -1,0 +1,107 @@
+/*#wrap {width: 1200px; margin: 0 auto;}
+html {width: 1200px;}
+body {width: 1200px;}*/
+
+section {float: left;}
+section .page_tit { width: 600px; height: 100px; background: #fff; margin:0 300px 0 300px;}
+section .conts{background: #fff;width: 1200px; height: 400px; text-align: center; overflow: auto;}
+
+legend {text-align: center; background: #C20324; width: 500px;}
+.table_position {width: 500px; height: 500px; }
+
+
+.page_tit h6 {font-size: 30px; border-bottom: 1px solid #777; margin-top: 50px; text-align: center;}
+
+
+.conts {}
+.conts .row {}
+div .col-xs-8.col-md-8 {margin: 0 5px 0px 10px; display: inline-block; box-sizing: border-box; height: 34px; }
+input.form-control.input-lg3 {width: 500px; margin-bottom: 10px;}
+.alert.alert-warning2 {height: 20px; margin: 10px 0px 10px 0px;}
+.btn.btn-lg.btn-primary.btn-block.ok-btn {margin-top: 10px;}
+
+/*푸터*/
+
+footer{clear: both; background: #fff;width: 1200px;height: 100px; }
+#footer {
+ margin-left: 220px;  /* 가운데 오게 할려고 얘만 건드렸음 원래는 250px */
+ text-align: center;
+ padding: 33px;
+}
+
+
+/*media query*/
+
+@media (max-width: 1200px){
+  #wrap {width: 100%;}
+  header {/*width: 95%*/width: 100%;   }
+  header .header_menu a {font-size: 10px;  padding: 15px 10px 1px 0px;}
+  header .h_line {width: 100%;}
+  footer {width: 100%;}  
+  .form{width: 100%;}
+
+  #footer { margin-left: 0px; padding: 0px ;}
+  .fcopyright .flogo { display: none;position: unset; padding: 5px; margin-top: 0; margin-left: 10px;}
+  section {/*width: 95%;*/width: 100%;   }
+  section .page_tit {/*width: 95%;*/width: 100%;    margin: 0px 0px 0px 10px;}
+  section .conts {width: 100%; margin: 0px 0px 0px 10px;}
+
+  .fcopyright .paddr {margin: 70px 5px 0px 5px; }
+  .fcopyright .ptel {margin-bottom: 50px; line-height: 20px; margin-left: 49px;}
+}
+
+@media (max-width: 1010px){
+  #wrap {width: 100%;}
+  header {/*width: 95%*/width: 100%;   }
+  header .header_menu a {font-size: 10px;  padding: 15px 10px 1px 0px;}
+  header .h_line {width: 100%;}
+  footer {width: 100%;}  
+  .form{width: 100%;}
+  .dropdown {display: none;}
+  #footer { margin-left: 0px; padding: 0px ;}
+  .fcopyright .flogo { display: none;position: unset; padding: 5px; margin-top: 0; margin-left: 10px;}
+  section {/*width: 95%;*/width: 100%;   }
+  section .page_tit {/*width: 95%;*/width: 100%;    margin: 0px 0px 0px 10px;}
+  section .conts {width: 100%; margin: 0px 0px 0px 10px;}
+
+  .fcopyright .paddr {margin: 70px 5px 0px 5px; }
+  .fcopyright .ptel {margin-bottom: 50px; line-height: 20px; margin-left: 49px;}
+}
+
+
+/* @media (max-width: 600px){
+  #wrap {width: 100%;}
+  header {width: 95%width: 100%;   }
+  header .header_menu a {font-size: 10px;  padding: 15px 10px 1px 0px;}
+  header .h_line {width: 100%;}
+  .dropdown {display: none;}
+  footer {width: 100%;}  
+  .form{width: 100%;   }
+  #footer { margin-left: 0px; padding: 0px ;}
+  .fcopyright .flogo { display: none;position: unset; padding: 5px; margin-top: 0; margin-left: 10px;}
+  section {width: 95%;width: 100%;   }
+  section .page_tit {width: 95%;width: 100%;    margin: 0px 0px 0px 10px;}
+  section .conts {width: 100%; margin: 0px 0px 0px 10px;}
+
+  .fcopyright .paddr {margin: 70px 5px 0px 5px; }
+  .fcopyright .ptel {margin-bottom: 50px; line-height: 20px; margin-left: 49px;}
+}
+
+@media (max-width: 500px){
+  #wrap {width: 100%;}
+  header {width: 100%;}
+  header .header_menu a {font-size: 10px;  padding: 15px 10px 1px 0px;}
+  header .h_line {width: 100%;}
+  .dropdown {display: none;}
+  footer {width: 100%;}  
+  #footer { margin-left: 0px; padding: 0px ;}
+  .fcopyright .flogo { display: none;position: unset; padding: 5px; margin-top: 0; margin-left: 10px;}
+  .form {width: 100%;   }
+  section {width: 100%;}
+  section .page_tit {width: 100%; margin: 0px 0px 0px 10px;}
+  section .conts {width: 100%; margin: 0px 0px 0px 10px;}
+
+  .fcopyright .paddr {margin: 70px 5px 0px 5px; }
+  .fcopyright .ptel {margin-bottom: 50px; line-height: 20px; margin-left: 49px;}
+}
+ */

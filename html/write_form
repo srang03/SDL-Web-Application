@@ -1,0 +1,23 @@
+?php
+  session_start(); 
+  if(isset($_REQUEST["page"]))  // 페이지 번호
+   $page=$_REQUEST["page"];
+  else
+   $page=1;
+  if(isset($_REQUEST["mode"]))  // 새로 쓰기, 수정, 답변 구분 
+   $mode=$_REQUEST["mode"];
+  else
+   $mode="";
+  
+  if(isset($_REQUEST["num"]))  
+   $num=$_REQUEST["num"];
+  else
+   $num="";
+          
+  if ($mode=="modify" || $mode=="response"){
+   require_once("../lib/MYDB.php");
+   $pdo = db_connect();
+      
+    try{
+      $sql = "select * from phptest.qna where num = ? ";
+      $stmh = $pdo->prepare($sql); 

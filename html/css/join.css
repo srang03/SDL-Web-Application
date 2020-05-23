@@ -1,0 +1,40 @@
+
+
+/*media query*/
+
+@media (max-width: 600px){
+  #wrap {width: 100%;}
+  header {width: 100%; }
+  header .header_menu a {font-size: 10px;  padding: 15px 10px 1px 0px;}
+  header .h_line {width: 100%;}
+  #cont_nav {display: none;}
+ /* .menubar {}
+  .menubar .dropdown_all{float: left;}
+  .logo_div{float: none;}
+  .menubar .logo {float: none;}
+  .menubar img {padding-bottom: 15px;float:none; padding-top: 0;}
+
+  .dropbtn {margin-left: 20px; margin-top: 0;}
+  .dropdown-content { margin-left: 20px; min-width: 80px;}
+  #contents {}
+  메뉴바 없애서 필요 없음*/
+
+  footer {width: 100%;}  
+  #footer { margin-left: 0px; padding: 0px ;}
+  .fcopyright .flogo {position: unset; padding: 5px; margin-top: 0; margin-left: 10px; display: none;}
+
+  section {width: 100%;}
+  section .page_tit {width: 99%;margin-left: 0;}
+  section .conts {width: 99%;}
+
+  .fcopyright .paddr {margin: 70px 5px 0px 5px; }
+  .fcopyright .ptel {margin-bottom: 50px; line-height: 20px; margin-left: 49px;}
+
+
+
+}
+
+
+
+
+@media (max-width: 480px){}
