@@ -40,9 +40,10 @@ http://chna03.dothome.co.kr/index
     * CSS언어의 선택자와 속성의 대한 이해 Grid를 이용한 현대적인 레이아웃 제작방법, MediaQuery를 이용하여 다양한 크기의 스크린에 대응하는 방법을 학습하고 구현할 수 있습니다.  
     * JavaScript의 DataType, Operator, Statement와 Handler의 문법을 이해하고 동작 방법을 숙지하였습니다.
    
-    * 학습 평가표
-    
-    
+   
+   
+ * 학습 평가표
+      
 |항목|내용|평가|
 |:---:|:---:|:---:|
 |Node.js|Node.js 언어의 기본 문법과 모듈 사용을 자율적으로 할 수 있고 자체 웹 서버를 제작할 수 있다.|■■■■■|
